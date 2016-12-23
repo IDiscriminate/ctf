@@ -8,7 +8,7 @@ import time
 host = 'l33tcrypt.vuln.icec.tf'
 port = 6001
 
-def tcp_client(j, i, k):
+def fourtwentyblazeitup(j, i, k):
 	#print m
 	
 	print i
@@ -49,9 +49,9 @@ if __name__ == '__main__':
 	k = ''
 	while jj > 0:
 		for i in t:
-			c = tcp_client(jj, i, k)
+			c = fourtwentyblazeitup(jj, i, k)
 			while c == '2':
-				c = tcp_client(jj, i, k)
+				c = fourtwentyblazeitup(jj, i, k)
 				#if d == '0':  
 			if c == '0':	
 				jj = jj - 1
